@@ -1,0 +1,33 @@
+{
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 2000,
+
+    "workbench.colorCustomizations": {
+        "editorWarning.foreground": "#ff9933",
+        "editorError.foreground": "#FF0000",
+        "editorInfo.foreground": "#00AA00",
+    },
+
+    "editor.formatOnSave": false,
+    "editor.formatOnPaste": false,
+    "editor.codeActionsOnSave": [],
+    "editor.defaultFormatter": null,
+    "prettier.enable": true,
+    "eslint.enable": true,
+    "eslint.format.enable": true,
+    "eslint.run": "onType",
+    "eslint.probe": [
+        "javascript"
+    ],
+    "eslint.rules.customizations": [
+        {
+            "rule": "prettier/prettier",
+            "severity": "info"
+        }
+    ],
+    "[javascript]": {
+        "editor.formatOnPaste": true,
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+    }
+}
